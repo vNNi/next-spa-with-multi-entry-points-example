@@ -1,0 +1,21 @@
+{
+  "name": "next-spa-with-multi-entry-points-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "next": "^14.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "swr": "^2.2.4"
+  },
+  "devDependencies": {
+    "next-nginx-routes": "1.0"
+  },
+  "scripts": {
+    "build": "next build && next-nginx-routes"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}
